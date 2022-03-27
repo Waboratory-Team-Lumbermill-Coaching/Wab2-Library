@@ -1,128 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="002c701f-64a4-4dca-a9f9-b2072fd43216" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="002c701f-64a4-4dca-a9f9-b2072fd43216" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Helpers/loadHelpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Helpers/loadHelpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Http/Book/BookService.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Http/Book/BookService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Models/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Book.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="my_books.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_books.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Http/User/UserService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-              <folding>
-                <element signature="e#116#142#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookRepository.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App/Http/Book/BookRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-              <folding>
-                <element signature="e#116#136#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="export.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/export.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Base/AbstractRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="50" selection-start-line="50" selection-end-line="78" />
-              <folding>
-                <element signature="e#1212#1545#0#PHP" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppHelper.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Helpers/AppHelper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="175" column="37" selection-start-line="175" selection-start-column="37" selection-end-line="175" selection-end-column="37" />
-              <folding>
-                <element signature="e#114#147#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Http/User/UserRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-              <folding>
-                <element signature="e#116#136#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EntityManager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Base/EntityManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="66" column="27" lean-forward="true" selection-start-line="65" selection-start-column="15" selection-end-line="66" selection-end-column="27" />
-              <folding>
-                <element signature="e#107#130#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBManager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Database/DBManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="245" column="7" lean-forward="true" selection-start-line="245" selection-start-column="7" selection-end-line="250" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookService.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Http/Book/BookService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="43" />
-              <folding>
-                <element signature="e#116#148#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -160,6 +51,9 @@
       <replace />
       <replace>image</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -224,6 +118,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
@@ -237,6 +134,7 @@
     <option name="width" value="1552" />
     <option name="height" value="880" />
   </component>
+  <component name="ProjectId" id="26xgzpEc5vtpCD3IC7Qu47gYhLm" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -256,6 +154,10 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="dm&#9;FILE&#9;file://D:/wamp64/www/projects/sasho-demo/library/Database/DBManager.php&#10;AppHelper&#9;FILE&#9;file://D:/wamp64/www/projects/sasho-demo/library/App/Helpers/AppHelper.php&#10;GenreRepo&#9;FILE&#9;file://D:/wamp64/www/projects/sasho-demo/library/App/Http/Genre/GenreRepository.php&#10;BookServ&#9;FILE&#9;file://D:/wamp64/www/projects/sasho-demo/library/App/Http/Book/BookService.php&#10;registerp&#9;FILE&#9;file://D:/wamp64/www/projects/sasho-demo/library/register.php&#10;login&#9;FILE&#9;file://D:/wamp64/www/projects/sasho-demo/library/App/Http/User/Actions/LoginAction.php&#10;AppHelpe&#9;FILE&#9;file://D:/wamp64/www/projects/sasho-demo/library/App/Helpers/AppHelper.php&#10;Uniq&#9;FILE&#9;file://D:/wamp64/www/projects/sasho-demo/library/App/Rules/UniqueRule.php&#10;dbma&#9;FILE&#9;file://D:/wamp64/www/projects/sasho-demo/library/Database/DBManager.php&#10;dbc&#9;FILE&#9;file://D:/wamp64/www/projects/sasho-demo/library/Database/DBConnection.php&#10;User&#9;FILE&#9;file://D:/wamp64/www/projects/sasho-demo/library/App/Http/User/UserRepository.php&#10;AbstractService&#9;FILE&#9;file://D:/wamp64/www/projects/sasho-demo/library/Base/AbstractService.php&#10;ValidationRule&#9;FILE&#9;file://D:/wamp64/www/projects/sasho-demo/library/App/Rules/ValidationRule.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -263,6 +165,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -277,18 +180,7 @@
       <recent name="D:\wamp64\www\projects\sasho-demo\library\App\Models" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -310,6 +202,7 @@
       <workItem from="1646843636581" duration="27000" />
       <workItem from="1647076133050" duration="6682000" />
       <workItem from="1647157525015" duration="13962000" />
+      <workItem from="1648370927885" duration="220000" />
     </task>
     <servers />
   </component>
@@ -363,15 +256,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="5" />
-    </breakpoint-manager>
+    <option name="version" value="3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/App/Helpers/ValidatorHelper.php">
