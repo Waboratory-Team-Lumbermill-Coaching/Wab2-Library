@@ -9,6 +9,7 @@
 namespace App\Http\Book;
 
 
+use App\Helpers\AppHelper;
 use App\Http\Genre\GenreService;
 use App\Models\Book;
 use Base\AbstractRepository;
@@ -30,7 +31,7 @@ class BookService extends AbstractService {
 
     public function __construct(
         BookRepository $repository,
-        GenreService $genreService
+        GenreService   $genreService
     ) {
         parent::__construct($repository);
         $this->genreService = $genreService;
@@ -42,13 +43,18 @@ class BookService extends AbstractService {
      * @throws \Exception
      */
     public function create(array $data) {
+        if(!AppHelper::authUser()){
+            return null;
+        }
         $data = $this->sanitize($data);
         $book = new Book();
 
-        foreach($data as $key => $item) {
+
+        foreach ($data as $key => $item) {
             $book->{$key} = $item;
         }
 
+        $book->user_id = AppHelper::authUser()->id;
         $this->repository->store($book);
 
         return $book;
@@ -68,7 +74,7 @@ class BookService extends AbstractService {
     public function index($query = null) {
         $books = $this->repository->findAll($query);
 
-        foreach($books as $book) {
+        foreach ($books as $book) {
             $book->genre = $this->genreService->getById($book->genre_id);
         }
 

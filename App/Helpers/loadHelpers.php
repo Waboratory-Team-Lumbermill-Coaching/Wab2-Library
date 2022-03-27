@@ -12,7 +12,7 @@ require_once __DIR__ . '\DrawerHelper.php';
 require_once __DIR__ . '\ValidatorHelper.php';
 
 const CONFIG = [
-    'APP_URL' => 'http://library-exam.sasho.wab'
+    'APP_URL' => 'http://library.sasho'
 ];
 
 function dd($value) {

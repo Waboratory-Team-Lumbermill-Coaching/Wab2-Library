@@ -17,6 +17,7 @@ class Book extends BaseModel {
         'description',
         'image',
         'genre_id',
+        'user_id',
     ];
 
     public $title;
@@ -24,4 +25,5 @@ class Book extends BaseModel {
     public $description;
     public $image;
     public $genre_id;
+    public $user_id;
 }
